@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Center</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: lightgray;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .banner {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            border: 1px solid gray;
+        }
+
+        .program {
+            display: inline-block;
+            background-color: lightblue;
+            padding: 15px;
+            margin: 10px;
+            width: 180px;
+            text-align: center;
+        }
+
+        .program:hover {
+            background-color: orange;
+            transition: 0.5s;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: navy;
+            color: white;
+        }
+
+        .form {
+            text-align: center;
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 8px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            transition: 0.5s;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .program {
+                width: 80%;
+            }
+
+            table {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>POWER FITNESS GYM</h1>
+        <p>Home | Programs | Trainers | Membership | Contact</p>
+    </div>
+
+    <div class="banner">
+        <h1>BUILD YOUR BODY</h1>
+        <p>Join Our Gym and Achieve Your Fitness Goals!</p>
+        <button>Join Now</button>
+    </div>
+
+    <div class="section">
+        <h2>Workout Programs</h2>
+
+        <div class="program">
+            <h3>Weight Training</h3>
+            <p>Build strong muscles.</p>
+        </div>
+
+        <div class="program">
+            <h3>Cardio</h3>
+            <p>Improve your stamina.</p>
+        </div>
+
+        <div class="program">
+            <h3>Yoga</h3>
+            <p>Improve flexibility.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Our Trainers</h2>
+        <p>Trainer 1 - John (Fitness Coach)</p>
+        <p>Trainer 2 - David (Weight Training)</p>
+        <p>Trainer 3 - Rahul (Yoga Trainer)</p>
+    </div>
+
+    <div class="section">
+        <h2>Gym Facilities</h2>
+        <ul>
+            <li>Modern Equipment</li>
+            <li>Cardio Machines</li>
+            <li>Personal Training</li>
+            <li>Clean Changing Rooms</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Membership Plans</h2>
+
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Basic</td>
+                <td>1 Month</td>
+                <td>Rs. 1000</td>
+            </tr>
+
+            <tr>
+                <td>Standard</td>
+                <td>3 Months</td>
+                <td>Rs. 2500</td>
+            </tr>
+
+            <tr>
+                <td>Premium</td>
+                <td>1 Year</td>
+                <td>Rs. 8000</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Class Schedule</h2>
+
+        <table>
+            <tr>
+                <th>Class</th>
+                <th>Time</th>
+                <th>Days</th>
+            </tr>
+
+            <tr>
+                <td>Yoga</td>
+                <td>6 AM</td>
+                <td>Monday - Friday</td>
+            </tr>
+
+            <tr>
+                <td>Cardio</td>
+                <td>7 AM</td>
+                <td>Monday - Saturday</td>
+            </tr>
+
+            <tr>
+                <td>Weight Training</td>
+                <td>5 PM</td>
+                <td>Monday - Saturday</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="form">
+        <h2>Registration Form</h2>
+
+        <form>
+            Name:
+            <input type="text" placeholder="Enter your name">
+            <br>
+
+            Email:
+            <input type="email" placeholder="Enter your email">
+            <br>
+
+            Phone:
+            <input type="tel" placeholder="Enter phone number">
+            <br>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>POWER FITNESS GYM</p>
+        <p>Stay Fit | Stay Healthy</p>
+    </div>
+
+</body>
+</html>
